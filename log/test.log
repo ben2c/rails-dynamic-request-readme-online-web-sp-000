@@ -317,3 +317,7 @@ Started GET "/posts/1" for 127.0.0.1 at 2021-03-11 23:16:28 +0000
 Started GET "/posts/1" for 127.0.0.1 at 2021-03-11 23:23:09 +0000
 Processing by PostsController#show as HTML
   Parameters: {"id"=>"1"}
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 272ms (Views: 262.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
